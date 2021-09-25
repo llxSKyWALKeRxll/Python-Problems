@@ -1,0 +1,7 @@
+*** MATRIX ***
+[0, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 1]
+[1, 0, 0, 1]
+[0, 0, 0, 0]
+Shortest path from top-left corner to bottom-right corner:  7

@@ -14,9 +14,10 @@ def pathFinder(arr, startPos, endPos):
 if __name__=="__main__":
     arr = [
         [1,1,1,1,0],
+        [1,0,1,0,0],
+        [0,1,1,1,0],
         [0,1,0,1,0],
-        [0,1,0,1,0],
-        [0,1,0,0,0],
         [1,1,1,1,1]
     ]
-    print(*pathFinder(arr, (0,0), (1,3)), sep=" ==> ")
+    # print(*pathFinder(arr, (0,0), (4,4)), sep=" ==> ")
+    print(pathFinder(arr, (0,0), (4,3)))

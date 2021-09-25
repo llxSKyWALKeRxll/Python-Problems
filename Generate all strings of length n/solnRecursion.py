@@ -1,6 +1,6 @@
 def rangeToList(k):
     result = []
-    for i in range(0, k):
+    for i in range(1, k):
         result.append(str(i))
     return result
 
@@ -13,4 +13,4 @@ def baseKStrings(n, k):
     return [x+y for x in baseKStrings(1, k) for y in baseKStrings(n-1, k)]
 
 
-print(*baseKStrings(4, 4), sep="\n")
+print(*baseKStrings(3, 3), sep="\n")
